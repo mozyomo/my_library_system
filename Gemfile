@@ -30,6 +30,13 @@ gem "jbuilder"
 # make possible to get environment from .env
 gem 'dotenv-rails', groups: [:development, :test]
 
+# Use react environment
+gem 'react-rails' 
+gem 'mini_racer'
+
+# controll  user login
+gem 'devise'
+
 # Use Redis adapter to run Action Cable in production
 # gem "redis", "~> 4.0"
 

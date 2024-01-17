@@ -4,7 +4,7 @@ RUN mkdir /rails_practice
 WORKDIR /rails_practice
 COPY Gemfile /rails_practice/Gemfile
 COPY Gemfile.lock /rails_practice/Gemfile.lock
-RUN bundle install
+RUN gem update --system && bundle install
 COPY . /rails_practice
 
 COPY entrypoint.sh /usr/bin/
