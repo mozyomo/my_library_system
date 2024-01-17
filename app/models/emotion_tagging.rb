@@ -1,0 +1,2 @@
+class EmotionTagging < ApplicationRecord
+end
