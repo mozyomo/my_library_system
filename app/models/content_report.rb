@@ -1,0 +1,2 @@
+class ContentReport < ApplicationRecord
+end
