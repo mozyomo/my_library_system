@@ -33,6 +33,8 @@ gem 'dotenv-rails', groups: [:development, :test]
 # Use react environment
 gem 'react-rails' 
 gem 'mini_racer'
+gem 'bootstrap', '~> 5.3.2'
+gem 'dartsass-sprockets'
 
 # controll  user login
 gem 'devise'
