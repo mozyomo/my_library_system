@@ -1,17 +1,29 @@
-<div class="d-flex flex-column flex-shrink-0 bg-light" style="width: 4.5rem; height: 100vh;">
+<div class="d-flex flex-column flex-shrink-0 bg-light" style="width: 3.5rem; height: 100vh; float: left;">
     <ul>
         <li>
-            <div class="side_navi_box">
-                <i class="bi bi-house-door-fill"></i>
-            </div>
+            <button class="side_navi_box">
+                <i class="bi bi-house sn_icon"></i>
+            </button>
         </li>
         <li>
-            <div class="side_navi_box">
-            </div>
+            <%= link_to stores_path, class: "side_navi_box btn btn-default" do %>
+                <i class="bi bi-journals sn_icon"></i>
+            <% end %>
         </li>
         <li>
-            <div class="side_navi_box">
-            </div>
+            <button class="side_navi_box">
+                <i class="bi bi-people-fill sn_icon"></i>
+            </button>
+        </li>
+        <li>
+            <button class="side_navi_box">
+                <i class="bi bi-gear sn_icon"></i>
+            </button>
+        </li>
+        <li>
+            <%= button_to destroy_user_session_path, :method => :delete, class: "side_navi_box btn btn-default" do %>
+                <i class="bi bi-box-arrow-right sn_icon"></i>
+            <% end %>
         </li>
     </ul>
 </div>

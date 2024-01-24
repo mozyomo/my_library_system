@@ -87,7 +87,26 @@ body {
     padding-left: 0vh;
   }
   
-  .side_navi_box{
-    height: 4.5rem;
-    width: 4.5rem;
+  .side_navi_box {
+    height: 3.5rem;
+    width: 3.5rem;
+    text-align:center;
+    border: none;
+    background: transparent;
+  }
+
+  .sn_icon {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .login-form {
+    width: 50vh;
+    margin: 7.0rem;
+    float: left;
+  }
+
+  .login-img{
+    margin-top: 15vh;
+    float: left;
   }
